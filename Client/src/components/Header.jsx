@@ -64,14 +64,14 @@ const Header = () => {
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5">
         {/* Logo Section */}
-        <div className="flex items-center h-[37px] xl:h-[40px]">
+        <div className="flex items-center gap-x-5 h-[37px] lg:h-[50px] xl:h-[60px]">
           <img
             src="https://peoplemanagingpeople.com/wp-content/uploads/sites/3/2024/03/pmp-logo@2x.png"
             className="h-full"
             alt=""
             decoding="async"
           />
-          <p id="logo-desc" className="bg-gray-400 w-[150px] h-[40px] text-wrap text-xs font-notoSans font-[500]">
+          <p id="logo-desc" className=" w-[150px] h-[40px] text-wrap text-xs font-notoSans font-[500] hidden lg:block">
           Practical guidance for leaders inspiring change.
           </p>
         </div>
